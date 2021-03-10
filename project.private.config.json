@@ -1,0 +1,42 @@
+{
+  "setting": {},
+  "condition": {
+    "plugin": {
+      "list": []
+    },
+    "game": {
+      "list": []
+    },
+    "gamePlugin": {
+      "list": []
+    },
+    "miniprogram": {
+      "list": [
+        {
+          "name": "pages/comp/detail/detail",
+          "pathName": "pages/comp/detail/detail",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/comp/rules/rules",
+          "pathName": "pages/comp/rules/rules",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/comp/info/info",
+          "pathName": "pages/comp/info/info",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/comp/detail/detail",
+          "pathName": "pages/comp/detail/detail",
+          "query": "",
+          "scene": null
+        }
+      ]
+    }
+  }
+}

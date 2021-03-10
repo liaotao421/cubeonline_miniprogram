@@ -1,0 +1,19 @@
+<cu-custom bgColor="bg-gradual-blue" isBack="{{true}}"><view slot="backText">返回</view><view slot="content">比赛详情</view></cu-custom>
+<scroll-view scroll-x class="bg-grey nav text-center">
+  <view class="cu-item {{0==TabCur?'text-white cur':''}}" bindtap="tabSelect" data-id="0">
+    <text class="cuIcon-discover"></text> 详情
+  </view>
+  <view class="cu-item {{1==TabCur?'text-white cur':''}}" bindtap="tabSelect" data-id="1">
+    <text class="cuIcon-form" ></text> 规则
+  </view>
+  <view class="cu-item {{3==TabCur?'text-white cur':''}}" bindtap="tabSelect" data-id="3">
+    <text class="cuIcon-vipcard"></text> 赛程
+  </view>
+  <view class="cu-item {{4==TabCur?'text-white cur':''}}" bindtap="tabSelect" data-id="4">
+    <text class="cuIcon-friendfavor"></text> 选手
+  </view>
+  <view class="cu-item {{5==TabCur?'text-white cur':''}}" bindtap="tabSelect" data-id="5">
+    <text class="cuIcon-new"></text> 报名
+  </view>
+</scroll-view>
+<info wx:if="{{TabCur==0}}"></info>

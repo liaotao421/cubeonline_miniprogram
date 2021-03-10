@@ -3,6 +3,7 @@
 </cu-custom>
 
 <about wx:if="{{PageCur=='about'}}"></about>
+<comp wx:if="{{PageCur=='comp'}}"></comp>
 <view class="cu-bar tabbar bg-white shadow foot">
   <view class="action" bindtap="NavChange" data-cur="home">
     <view class='cuIcon-cu-image'>

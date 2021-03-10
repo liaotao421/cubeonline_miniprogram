@@ -1,0 +1,10 @@
+/* pages/comp/info/info.wxss */
+@import "../../../app.wxss";
+
+.bb{
+  font-weight: 1000;
+}
+
+page{
+  background: white;
+}

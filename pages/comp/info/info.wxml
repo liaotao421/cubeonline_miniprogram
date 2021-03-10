@@ -1,0 +1,31 @@
+<view class=" align-center bg-white " >
+  <view class="text-center margin-bottom-xl">
+    <view class=" padding text-xl">
+      <text class="text-black">2018成都信息工程大学新生赛</text>
+    </view>
+  </view>
+  <view class="text-left margin-bottom-xl" >
+    <view class="margin-left-xl bb">日期</view>
+    <view class="margin-left-xl margin-top-xs">2020.1.12</view>
+  </view>
+  <view class="text-left margin-bottom-xl">
+    <view class="margin-left-xl bb">地点</view>
+    <view class="margin-left-xl margin-top-xs">4012</view>
+  </view>
+  <view class="text-left margin-bottom-xl">
+    <view class="margin-left-xl bb">项目</view>
+    <view class="margin-left-xl margin-top-xs">二阶、三阶、四阶</view>
+  </view>
+  <view class="text-left margin-bottom-xl">
+    <view class="margin-left-xl bb">已报名人数</view>
+    <view class="margin-left-xl margin-top-xs">35</view>
+  </view>
+  <view class="text-left margin-bottom-xl">
+    <view class="margin-left-xl bb">报名人数限制</view>
+    <view class="margin-left-xl margin-top-xs">90</view>
+  </view>
+  <view class="text-left margin-bottom-xl">
+    <view class="margin-left-xl bb">报名起始时间</view>
+    <view class="margin-left-xl margin-top-xs">2021-03-01 12:00:00</view>
+  </view>
+</view>

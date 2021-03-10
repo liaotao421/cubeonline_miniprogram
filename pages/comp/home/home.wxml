@@ -1,0 +1,62 @@
+<view class="cu-bar bg-white solid-bottom margin-top">
+  <view class="action">
+    <text class="cuIcon-title text-orange "></text> 未开始报名
+  </view>
+  <view class="action">
+    <text class="text-grey">查看更多</text>
+  </view>
+</view>
+<view class="cu-list menu">
+  <view class="cu-item arrow">
+    <navigator class="content" hover-class="none" url="../list/list" open-type="redirect">
+      <text class="cuIcon-tag text-orange"></text>
+      <text class="text-grey">2021成都信息工程大学新生赛</text>
+    </navigator>
+  </view>
+</view>
+
+<view class="cu-bar bg-white solid-bottom margin-top">
+  <view class="action">
+    <text class="cuIcon-title text-green "></text> 正在报名
+  </view>
+  <view class="action">
+    <text class="text-grey">查看更多</text>
+  </view>
+</view>
+<view class="cu-list menu">
+  <view class="cu-item arrow">
+    <navigator class="content" hover-class="none" url="../list/list" open-type="redirect">
+      <text class="cuIcon-write text-orange"></text>
+      <text class="text-grey">2020成都信息工程大学新生赛</text>
+    </navigator>
+  </view>
+</view>
+
+<view class="cu-bar bg-white solid-bottom margin-top">
+  <view class="action">
+    <text class="cuIcon-title text-red "></text> 截止报名/已结束
+  </view>
+  <view class="action">
+    <text class="text-grey">查看更多</text>
+  </view>
+</view>
+<view class="cu-list menu">
+  <view class="cu-item arrow">
+    <navigator class="content" hover-class="none" url="../list/list" open-type="redirect">
+      <text class="cuIcon-tagfill text-orange"></text>
+      <text class="text-grey">2018成都高校新生赛</text>
+    </navigator>
+  </view>
+  <view class="cu-item arrow">
+    <navigator class="content" hover-class="none" url="../list/list" open-type="redirect">
+      <text class="cuIcon-tagfill text-orange"></text>
+      <text class="text-grey">2019成都信息工程大学新生赛</text>
+    </navigator>
+  </view>
+  <view class="cu-item arrow">
+    <navigator class="content" hover-class="none" url="../list/list" open-type="redirect">
+      <text class="cuIcon-tagfill text-orange"></text>
+      <text class="text-grey">2018成都信息工程大学新生赛</text>
+    </navigator>
+  </view>
+</view>
