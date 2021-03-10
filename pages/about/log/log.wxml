@@ -1,0 +1,40 @@
+<cu-custom bgColor="bg-gradual-green" isBack="{{true}}"><view slot="backText">返回</view><view slot="content">日志</view></cu-custom>
+<view class="cu-timeline">
+  <view class="cu-item text-green">
+    <view class="bg-gradual-green content shadow">
+      <view class="cu-capsule radius">
+        <view class="cu-tag bg-white text-green">v1.0</view>
+        <view class="cu-tag line-white">2019/04/25</view>
+      </view>
+      <view class="margin-top-sm text-content">
+        <view>1.完成1.1.1版本开发,b站链接 https://www.bilibili.com/video/BV1KQ4y1N7se</view>
+        <view>2.仅实现了选手报名和成绩统计功能</view>
+        <view>3.主要技术栈：ssm + jsp</view>
+      </view>
+    </view>   
+  </view>
+  <view class="cu-item text-green">
+    <view class="bg-gradual-green content shadow">
+      <view class="cu-capsule radius">
+        <view class="cu-tag bg-white text-green">v1.1</view>
+        <view class="cu-tag line-white">2020/10/12</view>
+      </view>
+      <view class="margin-top-sm text-content">
+        <view>1.合作完成1.1版本开发 网址：http://cube.tao421.xyz</view>
+        <view>2.实现魔方比赛整个流程完整功能（任有缺陷），并上线使用</view>
+        <view>3.主要技术栈：springboot + vue </view>
+      </view>
+    </view>   
+  </view>
+  <view class="cu-item text-green">
+    <view class="bg-gradual-green content shadow">
+      <view class="cu-capsule radius">
+        <view class="cu-tag bg-white text-green">v2.x</view>
+        <view class="cu-tag line-white">2021/3/9</view>
+      </view>
+      <view class="margin-top-sm text-content">
+        <view>1.整个回炉重造，打造全新版本，开发中</view>
+      </view>
+    </view>   
+  </view>
+</view>

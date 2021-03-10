@@ -1,0 +1,10 @@
+<cu-custom bgColor="bg-gradual-green" isBack="{{true}}"><view slot="backText">返回</view><view slot="content">关于</view></cu-custom>
+<view class='margin-xl bg-white padding-xl radius shadow-lg'>
+  <view class='text-center margin-bottom text-lg  text-grey'>关于CubeOnline</view>
+  <view class='text-content'>
+    <view>Hi！欢迎使用CubeOnline</view>
+    <view class='margin-top-sm'>该项目是由成都信息工程大学魔方协会设计并开发的一款魔方比赛系统，系统可以便捷的进行一场魔方比赛，主办方通过系统发布比赛、统计比赛结果、发布比赛结果；选手通过系统报名参加比赛、查询赛果。或许你有一些好的想法可以在意见反馈里提交给我们，我们会加入到拓展里</view>
+    <view class='margin-top-sm'>项目免费开源，不收取任何费用，如果你觉得这个项目有帮助到你或者觉得很赞，可以扫描赞赏码支持一下</view>
+    <view class='margin-top-sm'>更多功能敬请期待</view>
+  </view>
+</view>

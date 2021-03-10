@@ -1,0 +1,31 @@
+<cu-custom bgColor="bg-gradual-blue">
+  <view slot="content">CubeOnline2.0</view>
+</cu-custom>
+
+<about wx:if="{{PageCur=='about'}}"></about>
+<view class="cu-bar tabbar bg-white shadow foot">
+  <view class="action" bindtap="NavChange" data-cur="home">
+    <view class='cuIcon-cu-image'>
+      <image src="/images/tabbar/basics{{PageCur=='home'?'_cur':''}}.png"></image>
+    </view>
+    <view class="{{PageCur=='basics'?'text-green':'text-gray'}}">首页</view>
+  </view>
+  <view class="action" bindtap="NavChange" data-cur="comp">
+    <view class='cuIcon-cu-image'>
+      <image src="/images/tabbar/component{{PageCur=='comp'?'_cur':''}}.png"></image>
+    </view>
+    <view class="{{PageCur=='component'?'text-green':'text-gray'}}">比赛</view>
+  </view>
+  <view class="action" bindtap="NavChange" data-cur="center">
+    <view class='cuIcon-cu-image'>
+      <image src="/images/tabbar/about{{PageCur=='center'?'_cur':''}}.png"></image>
+    </view>
+    <view class="{{PageCur=='plugin'?'text-green':'text-gray'}}">我的</view>
+  </view>
+  <view class="action" bindtap="NavChange" data-cur="about">
+    <view class='cuIcon-cu-image'>
+      <image src="/images/tabbar/plugin{{PageCur=='about'?'_cur':''}}.png"></image>
+    </view>
+    <view class="{{PageCur=='about'?'text-green':'text-gray'}}">关于</view>
+  </view>
+</view>
