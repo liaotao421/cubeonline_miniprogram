@@ -6,7 +6,8 @@
     "pages/about/log/log",
     "pages/comp/home/home",
     "pages/comp/detail/detail",
-    "pages/comp/info/info"
+    "pages/comp/info/info",
+    "pages/comp/player/player"
   ],
   "window": {
     "backgroundTextStyle": "light",

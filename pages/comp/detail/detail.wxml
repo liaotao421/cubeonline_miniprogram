@@ -6,14 +6,31 @@
   <view class="cu-item {{1==TabCur?'text-white cur':''}}" bindtap="tabSelect" data-id="1">
     <text class="cuIcon-form" ></text> 规则
   </view>
-  <view class="cu-item {{3==TabCur?'text-white cur':''}}" bindtap="tabSelect" data-id="3">
+  <view class="cu-item {{2==TabCur?'text-white cur':''}}" bindtap="tabSelect" data-id="2">
     <text class="cuIcon-vipcard"></text> 赛程
   </view>
-  <view class="cu-item {{4==TabCur?'text-white cur':''}}" bindtap="tabSelect" data-id="4">
+  <view class="cu-item {{3==TabCur?'text-white cur':''}}" bindtap="tabSelect" data-id="3">
     <text class="cuIcon-friendfavor"></text> 选手
   </view>
-  <view class="cu-item {{5==TabCur?'text-white cur':''}}" bindtap="tabSelect" data-id="5">
+  <view class="cu-item {{4==TabCur?'text-white cur':''}}" bindtap="tabSelect" data-id="4">
     <text class="cuIcon-new"></text> 报名
   </view>
 </scroll-view>
 <info wx:if="{{TabCur==0}}"></info>
+<player wx:if="{{TabCur==3}}"></player>
+<!-- https://i.loli.net/2021/03/11/T7OiAotlcpWLm81.png -->
+<view wx:if="{{TabCur==2}}">
+  <swiper class="screen-swiper"  interval="5000" duration="500">
+  <swiper-item >
+    <image src="https://i.loli.net/2021/03/11/T7OiAotlcpWLm81.png" mode="aspectFill"></image>
+  </swiper-item>
+</swiper>
+<view class="margin-left-sm margin-top-xs">此处为比赛主办预计赛程，可能会依据比赛现场情况进行调整，请在比赛日注意现场通知以免耽误您的参赛。</view>
+</view>
+<view wx:if="{{TabCur==1}}">
+  <view class="text-left margin-top-xl">
+    <view class="margin-left-xl ">长按复制以下链接到浏览器查阅wca规则</view>
+    <view class="margin-left-xl margin-top-lg" user-select="true"> https://www.worldcubeassociation.org/regulations/
+      translations/chinese/</view>
+  </view>
+</view>

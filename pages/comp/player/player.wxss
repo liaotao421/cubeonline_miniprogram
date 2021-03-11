@@ -1,9 +1,5 @@
-/* pages/comp/info/info.wxss */
+/* pages/comp/player/player.wxss */
 @import "../../../app.wxss";
-
-.bb{
-  font-weight: 1000;
-}
 
 page{
   background-color: white;

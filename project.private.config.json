@@ -35,6 +35,17 @@
           "pathName": "pages/comp/detail/detail",
           "query": "",
           "scene": null
+        },
+        {
+          "name": "pages/comp/player/player",
+          "pathName": "pages/comp/player/player",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/comp/player/player",
+          "pathName": "pages/comp/player/player",
+          "scene": null
         }
       ]
     }

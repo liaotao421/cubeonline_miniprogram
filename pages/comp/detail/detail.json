@@ -1,5 +1,6 @@
 {
   "usingComponents": {
-    "info":"/pages/comp/info/info"
+    "info":"/pages/comp/info/info",
+    "player":"/pages/comp/player/player"
   }
 }
